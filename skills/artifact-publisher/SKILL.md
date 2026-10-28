@@ -8,15 +8,15 @@ platforms: [macos, linux, windows]
 required_environment_variables:
   - name: ARTIFACT_PUBLISHER_KEY
     optional: true
-    prompt: "Publisher key for headless/always-on agents (Hermes, OpenClaw operators). Mint once at https://artifactpublisher.com/account/ — shown once; never paste into chat. Prefer OAuth browser consent when the client supports it."
+    prompt: "Publisher key for headless/always-on agents (Hermes, OpenClaw operators). Mint once at https://artifactpublisher.com/account/?ref=dir — shown once; never paste into chat. Prefer OAuth browser consent when the client supports it."
 metadata:
   tags: [html, publishing, sharing, share-link, mcp, feedback, review]
   hermes:
     tags: [html, publishing, sharing, mcp, feedback]
-    homepage: https://artifactpublisher.com
+    homepage: https://artifactpublisher.com/?ref=dir
   openclaw:
     emoji: 📎
-    homepage: https://artifactpublisher.com
+    homepage: https://artifactpublisher.com/?ref=dir
     primaryEnv: ARTIFACT_PUBLISHER_KEY
     requires:
       env:
@@ -24,7 +24,7 @@ metadata:
     envVars:
       - name: ARTIFACT_PUBLISHER_KEY
         required: true
-        description: Scoped publisher key (Bearer). Prefer OAuth when the client supports browser consent; for headless/always-on agents this env var is the practical path. Mint at https://artifactpublisher.com/account/ — never commit or paste into chat.
+        description: Scoped publisher key (Bearer). Prefer OAuth when the client supports browser consent; for headless/always-on agents this env var is the practical path. Mint at https://artifactpublisher.com/account/?ref=dir — never commit or paste into chat.
 ---
 
 # Artifact Publisher

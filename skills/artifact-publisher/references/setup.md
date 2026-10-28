@@ -34,7 +34,7 @@ Then Settings → MCP → Connect / Login.
 Practical for Hermes, OpenClaw operators, and always-on agents that cannot do
 browser OAuth:
 
-1. Open https://artifactpublisher.com/account/ and mint a publisher key (shown
+1. Open https://artifactpublisher.com/account/?ref=dir and mint a publisher key (shown
    once). Store in the client secret store or env — **never echo in chat**.
 2. Set `ARTIFACT_PUBLISHER_KEY`.
 3. Send `Authorization: Bearer ${ARTIFACT_PUBLISHER_KEY}` (or the client’s env
@@ -96,7 +96,7 @@ and workspace tools require OAuth or a key.
 
 ## 4. Desk
 
-Mint and manage keys at https://artifactpublisher.com/account/. Keys are shown
+Mint and manage keys at https://artifactpublisher.com/account/?ref=dir. Keys are shown
 once; only a hash is stored server-side.
 
 ## Explicit non-actions

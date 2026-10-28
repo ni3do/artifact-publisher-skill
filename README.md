@@ -1,6 +1,6 @@
 # Artifact Publisher — portable Agent Skill
 
-Public skill-only mirror for [Artifact Publisher](https://artifactpublisher.com/) (hosted MCP).
+Public skill-only mirror for [Artifact Publisher](https://artifactpublisher.com/?ref=dir) (hosted MCP).
 
 Markdown + MCP wiring only (no scripts). OAuth preferred when the client supports browser consent; `ARTIFACT_PUBLISHER_KEY` for headless / always-on agents.
 
@@ -23,4 +23,4 @@ hermes skills install ni3do/artifact-publisher-skill/skills/artifact-publisher
 
 ## License
 
-MIT-0 · Angle Labs GmbH · https://artifactpublisher.com/
+MIT-0 · Angle Labs GmbH · https://artifactpublisher.com/?ref=dir
